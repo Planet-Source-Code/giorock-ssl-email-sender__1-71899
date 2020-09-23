@@ -1,0 +1,15 @@
+SSL eMail Sender
+
+A complex SSL eMail Sender with data encryption and more.
+Since I never found nothing on the WEB about Visaual Basic sample, I've
+tryed to reuse an old HTTPS code to get a protected SSL connection to
+send eMail (old project do nothing but contains the core).
+Program is also able to attachments, CC, BCC comma separated addresses
+to send a complete 128-RC4-MD5 Hush encrypted packets data.
+More works is still to do but at the moment it does work almost fine.
+For all HOTMAIL Users the configuration Server & Port is done.
+Please Readme.txt before enter in IDE.
+Special thanks to Jason K. Resch & Anonimous for old project sample.
+
+Updated to communicate with SSL3.0 about Servers that supports fallback
+at SSL2.0 protocol after initial handshake messages...
